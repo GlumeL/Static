@@ -1703,9 +1703,6 @@ canvas:not(#ribbon-canvas),
     transform: translateX(0);
   }
 }
-figure.highlight table::-webkit-scrollbar-thumb {
-  background: #121212;
-}
 figure.highlight pre .deletion {
   color: #bf42bf;
 }
