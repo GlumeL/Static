@@ -1,0 +1,12 @@
+/*----------------------------------------------
+                                               -
+Glume Blog                                     -
+                                               -
+Date: 2020/09/03                               -
+                                               -
+https://bsgun.cn 【修改不易】                  -
+                                               -
+看见这个我希望你能够留下我信息                 -
+                                               -
+-----------------------------------------------*/
+#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel{background:#49b1f57a;margin-left:25px;margin-bottom:65px}#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel{background:#9bcD9B7a;box-shadow:none;margin-left:25px;margin-bottom:65px}#artitalk_main p.shuoshuo_time{border-top:1px dashed #b1b1b1}#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after{border-right-color:#9bcD9B7a}#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after{border-right-color:#49b1f57a}#artitalk_main .cbp_tmlabel:hover{box-shadow:none!important;transform:translateY(0)!important}.b-l{border-left:1px solid #96969675}.m-l-lg{margin-left:35px}#artitalk_main #lazy{background:#fff0}#artitalk_main .shuoshuo_author_img img{margin-left:-40px}#operare_artitalk .c2{color:#e08f6c}
