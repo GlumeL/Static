@@ -1,5 +1,5 @@
     function baidu_check(){
-        $.getJSON("http://47.93.58.127/baidu.php?domain="+window.location.href,function(result){ 
+        $.getJSON("https://api.bsgun.cn/domain/?domain="+window.location.href,function(result){ 
             if (result.code == 200) {
                 $('#baidu_icon').removeClass('fa fa-spinner');
                 $('#baidu_icon').addClass('fa fa-check');
