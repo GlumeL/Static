@@ -1,17 +1,18 @@
+/*感谢云猫Cloud的api接口*/
     function baidu_check(){
-        $.getJSON("https://api.bsgun.cn/domain/?domain="+window.location.href,function(result){ 
+        $.getJSON("https://blog.2w2.top/api/baidu.php?domain="+window.location.href,function(result){ 
             if (result.code == 200) {
                 $('#baidu_icon').removeClass('fa fa-spinner');
-                $('#baidu_icon').addClass('fa fa-check');
+                $('#baidu_icon').addClass('fas fa-check-circle');
                 $('#baidu_result').text('百度已收录');
             }else if(result.code == 403){
                 $('#baidu_icon').removeClass('fa fa-spinner');
-                $('#baidu_icon').addClass('fa fa-times');
+                $('#baidu_icon').addClass('fas fa-times-circle');
                 $('#baidu_result').text('百度未收录');
                 baidu_push();
             }else{
                  $('#baidu_icon').removeClass('fa fa-spinner');
-                $('#baidu_icon').addClass('fa fa-times');
+                $('#baidu_icon').addClass('fas fa-exclamation-circle');
                 $('#baidu_result').text('查询收录失败');
             }
         });
