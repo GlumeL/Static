@@ -1,4 +1,4 @@
-/*感谢云猫Cloud的api接口*/
+/*感谢云猫CloudCat的api接口*/
     function baidu_check(){
         $.getJSON("https://blog.2w2.top/api/baidu.php?domain="+window.location.href,function(result){ 
             if (result.code == 200) {
