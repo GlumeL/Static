@@ -48,7 +48,7 @@ function bot_ui_ini() {
 		end = function() {
 			botui.message.add({
 				delay: 100,
-				content: "![](https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/img/About-Kill.gif)"
+				content: "![](https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/About-Kill.gif)"
 			})
 		},
 		secondpart = function() {
