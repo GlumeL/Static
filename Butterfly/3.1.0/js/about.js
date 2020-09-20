@@ -95,7 +95,7 @@ function bot_ui_ini() {
 		thirdpart = function() {
 			botui.message.add({
 				delay: 1e3,
-				content: "Glume意为护颖"
+				content: "Glume"
 			}).then(function() {
 				botui.action.button({
 					delay: 1500,
@@ -111,11 +111,11 @@ function bot_ui_ini() {
 		fourthpart = function() {
 			botui.message.add({
 				delay: 1e3,
-				content: "Glume Blog译为忧郁博客"
+				content: "Glume Blog"
 			}).then(function() {
 				botui.message.add({
 					delay: 1100,
-					content: "本意为护颖博客"
+					content: "Glume"
 				}).then(function() {
 					botui.action.button({
 						delay: 1500,
@@ -140,7 +140,7 @@ function bot_ui_ini() {
 				}).then(function() {
 				botui.message.add({
 					delay: 1000,
-					content: "![](https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/img/About-WX.png)"
+					content: "![](https://cdn.jsdelivr.net/gh/GlumeL/Static@master/Butterfly/3.1.0/img/About-WX.png)"
 				})
 			})
 		})
