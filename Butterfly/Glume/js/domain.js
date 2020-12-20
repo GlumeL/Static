@@ -1,6 +1,6 @@
     /*感谢云猫Cloud的api接口*/
     function baidu_check(){
-        $.getJSON("https://blog.2w2.top/api/baidu.php?domain="+window.location.href,function(result){ 
+        $.getJSON("https://api.bsgun.cn/baidu/?domain="+window.location.href,function(result){ 
             if (result.code == 200) {
                 $('#baidu_icon').removeClass('fa fa-spinner glume-gd-stop');
                 $('#baidu_icon').addClass('fas fa-check-circle glume-gd-stop');
