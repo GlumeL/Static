@@ -1,4 +1,3 @@
-    /*感谢云猫Cloud的api接口*/
     function baidu_check(){
         $.getJSON("https://api.bsgun.cn/baidu/?domain="+window.location.href,function(result){ 
             if (result.code == 200) {
